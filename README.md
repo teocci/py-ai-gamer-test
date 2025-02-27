@@ -20,7 +20,6 @@ A Python-based game integrating AI agents with a graphical interface, built usin
 py-ai-gamer/
 ├── data/               # Game data (e.g., assets, saved models)
 ├── screens/            # UI screen definitions or assets
-├── __pycache__/        # Python bytecode cache
 ├── .gitignore          # Git ignore file
 ├── agent.log           # Agent activity log
 ├── agent.py            # AI agent logic
@@ -107,22 +106,3 @@ py-ai-gamer/
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Screenshot
-
-![Game Screenshot](game_screenshot.png)
-
-## Acknowledgments
-
-- Built by [Your Name].
-- Powered by Python, `tkinter`, and AI experimentation.
-
----
-
-### Notes
-- I’ve assumed `data/` might hold assets or models, and `screens/` might contain UI-related files—let me know if these are different!
-- The GitHub URL is placeholder—replace `yourusername` with your actual username or adjust if it’s not hosted yet.
-- The screenshot section links to `game_screenshot.png`, which is in your structure. If you want it formatted differently, let me know.
-- If `requirements.txt` includes specific AI libraries (e.g., NumPy, TensorFlow), I can expand the README to mention them.
-
-How’s this? Want to add more details about the game’s purpose, the AI’s behavior, or anything else?
