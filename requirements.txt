@@ -1,0 +1,9 @@
+opencv-python
+pygetwindow
+pyautogui
+numpy
+gym
+torch
+mss
+pytesseract
+screeninfo
