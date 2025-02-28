@@ -46,6 +46,7 @@ class GameScreen(Enum):
     GAMEPLAY = "gameplay.png"
     LEVEL_UP = "level-up.png"
     GAME_OVER = "game-over.png"
+    PAUSE_MENU = "pause.png"
 
 
 class GameInterface:
@@ -633,9 +634,17 @@ if __name__ == "__main__":
             time.sleep(1)
             current_screen = game.detect_current_screen()
             print(f"Screen after clicking PLAY: {current_screen.value if current_screen else 'Unknown'}")
+            time.sleep(0.5)
+
+            game.click_normal_mode()
+            print("Clicked the 'Normal Mode' button")
+
+            # Detect current screen after click
+            time.sleep(1)
+            current_screen = game.detect_current_screen()
+            print(f"Screen after clicking PLAY: {current_screen.value if current_screen else 'Unknown'}")
 
             # Test movement with confirmation
-            input("\nPress Enter to test movement controls...")
             print("Testing movement: LEFT")
             game.simulate_movement('left')
             time.sleep(0.5)
